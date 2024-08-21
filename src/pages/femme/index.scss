@@ -1,0 +1,83 @@
+.pagina-femme {
+    margin: 0px;
+    padding: 0px;
+
+    .unik {
+        .hero {
+            display: flex;
+            align-items: center;
+            justify-content: space-evenly;
+            background-color: #4B3A76;
+            padding: 40px;
+        }
+
+        .hero-text {
+            flex: 1;
+            color: #fff;
+        }
+
+        .hero-text h1 {
+            font-family: 'Amiko', sans-serif;
+            text-transform: uppercase;
+            font-weight: 700;
+            font-size: 3.5em;
+            margin: 0;
+            line-height: 1.2em;
+            width: 600px;
+        }
+
+        .hero-image {
+            flex: 1;
+            text-align: right;
+        }
+
+        .hero-image img {
+            max-width: 100%;
+            height: auto;
+        }
+
+        .sobre {
+            background-color: #000;
+            color: #f5f4f4;
+            padding: 40px;
+            margin: 0 auto;
+
+            .sobre-con {
+                display: flex;
+                flex-direction: column;
+               align-items: center;
+            }
+
+            .sobre-imh2 {
+                display: flex;
+                align-items: center;
+                gap: 15px;
+                margin-bottom: 20px;
+            }
+            .femme {
+                height: 60px;
+            }
+        
+
+            .sobre-imh2 h2 {
+                font-family: 'Urbanist', sans-serif;
+                font-weight: 800;
+                font-size: 40px;
+                text-transform: uppercase;
+                margin: 0;
+            }
+
+            .sobre-con p {
+                font-family: 'Montserrat', sans-serif;
+                font-weight: 400;
+                color: #CBBDF3;
+                font-size: 26px;
+                line-height: 1.6;
+                width: 1200px;
+                text-align: left;
+            }
+        }
+    }
+
+
+}
