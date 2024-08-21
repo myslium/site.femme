@@ -21,10 +21,18 @@ export default function Femme() {
             <section>
 
 
-                []
+                
 
 
             </section>
+
+            <section className='desenvolvedoras'>
+
+            </section>
+  
+            <footer>
+                
+            </footer>
         </div>
     )
 }
