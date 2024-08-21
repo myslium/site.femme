@@ -2,7 +2,7 @@ import './index.scss';
 import { Link } from 'react-router-dom';
 
 
-export default function Cabecalho() {
+export default function Cabecalho(props) {
     
     return(
         
@@ -15,7 +15,7 @@ export default function Cabecalho() {
             <nav>
                 <ul>
                     <li><Link to='/'>Inicio</Link></li>
-                    <li><Link to='/sobre'>Sobre Femme</Link></li>
+                    <li><button onClick={props.scrollToSobre}>Sobre Femme</button></li>
                 </ul>
             </nav>
 
