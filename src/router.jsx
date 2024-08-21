@@ -1,14 +1,15 @@
 import { BrowserRouter, Routes, Route } from 'react-router-dom';
-import LandingPage from './pages/landingPage';
+import Femme from './pages/femme';
 
 
-export default function Navegador() {
+export default function Navegacao() {
+    return (
+        <BrowserRouter>
+            <Routes>
+                <Route path='/' element={<Femme />} />
+                
 
-    <BrowserRouter>
-        <Routes>
-
-        <Route path='/' element = {<LandingPage/>}/>
-
-        </Routes>
-    </BrowserRouter>
+            </Routes>
+        </BrowserRouter>
+    );
 }
