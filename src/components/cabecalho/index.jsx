@@ -15,7 +15,7 @@ export default function Cabecalho(props) {
             <nav>
                 <ul>
                     <li><Link to='/'>Inicio</Link></li>
-                    <li><button onClick={props.scrollToSobre}>Sobre Femme</button></li>
+                    <li><Link to= {props.scrollToSobre}>Sobre Femme</Link></li>
                 </ul>
             </nav>
 

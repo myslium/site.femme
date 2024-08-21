@@ -1,21 +1,15 @@
 
-import React, { useRef } from 'react';
+
 import Cabecalho from '../../components/cabecalho'
 import './index.scss'
 
 export default function Femme() {
 
-        const sobreRef = useRef(null);
-    
-       
-        const scrollToSobre = () => {
-            sobreRef.current?.scrollIntoView({ behavior: 'smooth' });
-        };
     
 
     return (
         <div className='pagina-femme pagina'>
-            <Cabecalho  scrollToSobre= {scrollToSobre}/>
+            <Cabecalho  scrollToSobre= {'#sobre'}/>
             <section className='unik'>
                 <div className="hero">
                     <div className="hero-text">
@@ -25,7 +19,7 @@ export default function Femme() {
                         <img src="/assets/images/mulher1.png" alt="mulher1" />
                     </div>
                 </div>
-                <div ref={sobreRef} className="sobre">
+                <div id="sobre">
                     <div className="sobre-con">
                         <div className="sobre-imh2">
                             <img  className = 'femme' src="/assets/images/logo.femme.png" alt="Femme Logo" />
