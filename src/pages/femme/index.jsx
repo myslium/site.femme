@@ -1,11 +1,16 @@
+
+
 import Cabecalho from '../../components/cabecalho'
 import Dev from '../../components/dev'
 import './index.scss'
 
 export default function Femme() {
+
+    
+
     return (
         <div className='pagina-femme pagina'>
-            <Cabecalho />
+            <Cabecalho  scrollToSobre= {'#sobre'}/>
             <section className='unik'>
                 <div className="hero">
                     <div className="hero-text">
@@ -15,7 +20,7 @@ export default function Femme() {
                         <img src="/assets/images/mulher1.png" alt="mulher1" />
                     </div>
                 </div>
-                <div className="sobre">
+                <div id="sobre">
                     <div className="sobre-con">
                         <div className="sobre-imh2">
                             <img  className = 'femme' src="/assets/images/logo.femme.png" alt="Femme Logo" />

@@ -7,8 +7,6 @@ export default function Navegacao() {
         <BrowserRouter>
             <Routes>
                 <Route path='/' element={<Femme />} />
-                
-
             </Routes>
         </BrowserRouter>
     );
