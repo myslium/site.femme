@@ -2,6 +2,7 @@
 
 import Cabecalho from '../../components/cabecalho'
 import Dev from '../../components/dev'
+import Dev2 from '../../components/dev2'
 import './index.scss'
 
 export default function Femme() {
@@ -74,7 +75,7 @@ export default function Femme() {
                     />
 
 
-                    <Dev
+                    <Dev2
                     
 
                     p = {'A Desenvolvedora FullStack Rayane atua e projeta o Front-end dos nossos projetos, criando interfaces usando Html, CSS e ReactJS e também trabalha com banco de dados MySQL.'}
@@ -96,7 +97,7 @@ export default function Femme() {
                     
                     />
 
-                    <Dev
+                    <Dev2
                     
 
                     p = {'Mariana, Desenvolvedora FullStack, trabalha no back-end com Julia, desenvolvendo com JavaScript, NodeJS, ReactJS, PhP e MySQL.'}

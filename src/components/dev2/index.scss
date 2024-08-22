@@ -1,0 +1,44 @@
+.comp-femme {
+
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+
+    gap: 50px;
+    
+
+    img {
+        width: 250px; 
+        height: 250px; 
+        border-radius: 50%;
+        object-fit: cover; 
+
+        
+    }
+
+    .texto {
+
+        display: flex;
+        flex-direction: column;
+        
+        
+        h1 {
+            font: 800 40px 'Urbanist';
+            color: #fff;
+
+        }
+
+        p {
+            max-width: 350px;
+            width: 100%;
+
+            font-family: 'Montserrat', sans-serif;
+            font-weight: 500;
+            font-size: 20px;
+
+            color: #fff;
+         
+        }
+    }
+
+}

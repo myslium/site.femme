@@ -38,18 +38,18 @@
             height: auto;
         }
 
-        .sobre {
+        #sobre {
             background-color: #000;
             color: #f5f4f4;
             padding: 40px;
             margin: 0 auto;
-
+    
             .sobre-con {
                 display: flex;
                 flex-direction: column;
                align-items: center;
             }
-
+    
             .sobre-imh2 {
                 display: flex;
                 align-items: center;
@@ -60,7 +60,7 @@
                 height: 60px;
             }
         
-
+    
             .sobre-imh2 h2 {
                 font-family: 'Urbanist', sans-serif;
                 font-weight: 800;
@@ -69,7 +69,7 @@
                 color: #fff;
                 margin: 0;
             }
-
+    
             .sobre-con p {
                 font-family: 'Montserrat', sans-serif;
                 font-weight: 400;
@@ -80,14 +80,18 @@
                 text-align: left;
             }
         }
+
+        
     }
+
+    
 
     .desenvolvedoras {
 
         display: flex;
         flex-direction: column;
-        justify-content: flex-start;
-        align-items: flex-start;
+        justify-content: center;
+        align-items: center;
         padding: 0rem 6.5rem ;
 
         
