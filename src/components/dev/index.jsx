@@ -6,17 +6,17 @@ export default function Dev(props) {
 
     return (
 
-        <div className='dev-femme'>
+        <div className='comp-femme'>
 
-            <div className='imagem'>
-                <img src= {props} />
-            </div>
+            
+            <img src= {props.img} />
+            
 
             <div className='texto'>
 
-                <h1>{props}</h1>
+                <h1>{props.h1}</h1>
 
-                <p></p>
+                <p>{props.p}</p>
             </div>
         </div>
     )
