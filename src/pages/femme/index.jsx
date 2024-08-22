@@ -75,6 +75,7 @@ export default function Femme() {
                     />
 
 
+                    <div className='raymari'>
                     <Dev2
                     
 
@@ -85,6 +86,11 @@ export default function Femme() {
                     h1 = {'Rayane Macedo'}
                     
                     />
+
+
+
+                    </div>
+                   
 
                     <Dev
                     
@@ -97,6 +103,7 @@ export default function Femme() {
                     
                     />
 
+                    <div className='raymari'>
                     <Dev2
                     
 
@@ -104,9 +111,13 @@ export default function Femme() {
 
                     img = {'/assets/images/mari.jpg'}
 
-                    h1 = {'Mari'}
+                    h1 = {'Mariana Rodrigues'}
                     
                     />
+
+                    </div>
+
+                   
                 </div>
 
                 
