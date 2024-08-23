@@ -40,30 +40,34 @@ export default function Femme() {
                 <div className='pri'>
                     <div className='pri-text'>
                         <h1>Serviços Femme</h1>
-                        <p>Na Femme, estamos dedicadas a oferecer 
-                        <br/>serviços de desenvolvimento de sites sob medida,
-                        <br/> especialmente voltados para autônomos, 
-                        <br/>freelancers e pequenos empresários. 
-                        <br/>Nosso objetivo é criar soluções digitais que não só atendam, 
-                        <br/>mas superem suas expectativas.</p>
+                        <p>Na Femme, estamos dedicadas a oferecer <br/>serviços de desenvolvimento de sites sob medida,<br/> especialmente voltados para autônomos, <br/>freelancers e pequenos empresários. <br/>Nosso objetivo é criar soluções digitais que não só atendam, <br/>mas superem suas expectativas.</p>
                     </div>
                     <div className="pri-four">
                         <img src="/assets/images/quatromulheres.png" alt="mulheres" />
                     </div>
                 </div>
+            
             </section>
 
-
-
-
-
-
-            <section>
-
-
+            
+            <section className='terceira' >
+            <div className='esq'> <img src='/assets/images/aspasesq.png' /> </div>
+                <div className='container-pri'>
+                <img  className = 'femme' src="/assets/images/logo.femme.png" alt="Logo Femme" />
+                <h1>Clientes</h1>
+                </div>
+                <div className='parag'>
+                <p>Empresa com comprometimento e que<br/> entrega o melhor resultado para o cliente,<br/>transmite confiança e tem total<br/> transparência, de fato, minha experiência<br/>com a Femme foi totalmente satisfatória</p>
+                <p className='p2'>-Gislaine, Dona da G&G</p>
+                </div>
+                <div className='dir'> <img src='/assets/images/aspasdir.png' /> </div>
+                <div className='branco'> <img src='/assets/images/line.png' /> </div>
             </section>
 
+        
 
+
+        
 
 
             <section className='desenvolvedoras'>
