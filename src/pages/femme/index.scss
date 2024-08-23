@@ -79,12 +79,59 @@
                 width: 1200px;
                 text-align: left;
             }
-        }
-
-        
+        }  
     }
 
     
+
+
+    .segunda {
+        display: flex;
+        align-items: center; 
+        background-color: #2E338D;
+        padding: 50px;
+
+            .pri {
+                display: flex;
+                align-items: center; 
+                justify-content: space-between;  
+             
+
+                .pri-text {
+                    color: #fff;
+            
+                    h1 {
+                        font-weight: 800;
+                        font-size: 40px;
+                        text-transform: uppercase;
+                        margin: 0;  
+                        padding: 0px 20px 0px 30px;
+                    }
+            
+                    p {
+                        font-family: 'Urbanist', sans-serif;
+                        font-size: 20px;
+                        margin: 0; 
+                        padding: 10px 0px 0px 30px;
+                    }
+                }
+            
+                .pri-four {
+                    display: flex;
+                    justify-content: center;  
+                    align-items: center;  
+            
+                }
+            }
+        }
+
+
+    
+
+
+
+
+
 
     .desenvolvedoras {
 

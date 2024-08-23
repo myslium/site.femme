@@ -32,26 +32,39 @@ export default function Femme() {
                         </p>
                     </div>
                 </div>
-
-                
             </section>
+
+
+
+            <section className='segunda'>
+                <div className='pri'>
+                    <div className='pri-text'>
+                        <h1>Serviços Femme</h1>
+                        <p>Na Femme, estamos dedicadas a oferecer 
+                        <br/>serviços de desenvolvimento de sites sob medida,
+                        <br/> especialmente voltados para autônomos, 
+                        <br/>freelancers e pequenos empresários. 
+                        <br/>Nosso objetivo é criar soluções digitais que não só atendam, 
+                        <br/>mas superem suas expectativas.</p>
+                    </div>
+                    <div className="pri-four">
+                        <img src="/assets/images/quatromulheres.png" alt="mulheres" />
+                    </div>
+                </div>
+            </section>
+
+
+
+
 
 
             <section>
 
 
-
-
             </section>
 
 
-            <section>
 
-
-
-
-
-            </section>
 
             <section className='desenvolvedoras'>
 
