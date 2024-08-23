@@ -51,14 +51,14 @@ export default function Femme() {
 
             
             <section className='terceira' >
-            <div className='esq'> <img src='/assets/images/aspasesq.png' /> </div>
+                <div className='esq'> <img src='/assets/images/aspasesq.png' /> </div>
                 <div className='container-pri'>
-                <img  className = 'femme' src="/assets/images/logo.femme.png" alt="Logo Femme" />
-                <h1>Clientes</h1>
+                    <img  className = 'femme' src="/assets/images/logo.femme.png" alt="Logo Femme"/>
+                    <h1>Clientes</h1>
                 </div>
                 <div className='parag'>
-                <p>Empresa com comprometimento e que<br/> entrega o melhor resultado para o cliente,<br/>transmite confiança e tem total<br/> transparência, de fato, minha experiência<br/>com a Femme foi totalmente satisfatória</p>
-                <p className='p2'>-Gislaine, Dona da G&G</p>
+                    <p>Empresa com comprometimento e que<br/> entrega o melhor resultado para o cliente,<br/>transmite confiança e tem total<br/> transparência, de fato, minha experiência<br/>com a Femme foi totalmente satisfatória</p>
+                    <p className='p2'>-Gislaine, Dona da G&G</p>
                 </div>
                 <div className='dir'> <img src='/assets/images/aspasdir.png' /> </div>
                 <div className='branco'> <img src='/assets/images/line.png' /> </div>
