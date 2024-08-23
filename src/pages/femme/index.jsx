@@ -58,7 +58,14 @@ export default function Femme() {
 
 
 
-            <section>
+            <section className='jovens'>
+                <div className="mae">
+                    <div className="texto">
+                        <h1>Para jovens da informática</h1>
+                        <p>Nossa empresa visa sempre encorajar jovens progamadores e principalmente progamadoras, NEGRAS E PERIFÉRICAS a engatarem neste mundo tecnológico, sempre desenvolvendo novas habilidades e deixando a área feminina da informática cada vez mais popular e conhecida. Você é capaz!</p>
+                    </div>
+                </div>
+
 
 
             </section>
