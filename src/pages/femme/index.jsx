@@ -32,6 +32,16 @@ export default function Femme() {
                         </p>
                     </div>
                 </div>
+
+                <div className="jovens">
+                    <div className="text">
+                        <h1>Para Jovens da informática</h1>
+
+                    </div>
+                    <div className="img">
+
+                    </div>
+                </div>
             </section>
 
 
