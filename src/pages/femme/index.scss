@@ -2,6 +2,8 @@
     margin: 0px;
     padding: 0px;
 
+    background-color: #000;
+
     .unik {
         .hero {
             display: flex;
@@ -36,18 +38,18 @@
             height: auto;
         }
 
-        .sobre {
+        #sobre {
             background-color: #000;
             color: #f5f4f4;
             padding: 40px;
             margin: 0 auto;
-
+    
             .sobre-con {
                 display: flex;
                 flex-direction: column;
                align-items: center;
             }
-
+    
             .sobre-imh2 {
                 display: flex;
                 align-items: center;
@@ -58,15 +60,16 @@
                 height: 60px;
             }
         
-
+    
             .sobre-imh2 h2 {
                 font-family: 'Urbanist', sans-serif;
                 font-weight: 800;
                 font-size: 40px;
                 text-transform: uppercase;
+                color: #fff;
                 margin: 0;
             }
-
+    
             .sobre-con p {
                 font-family: 'Montserrat', sans-serif;
                 font-weight: 400;
@@ -77,6 +80,67 @@
                 text-align: left;
             }
         }
+
+        
+    }
+
+    
+
+    .desenvolvedoras {
+
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        
+
+        
+        
+        .sobre-imh2 {
+            display: flex;
+            align-items: center;
+            position: relative;
+            
+            gap: 15px;
+            margin-bottom: 20px;
+            margin-bottom: 5rem;
+            margin-left: 5rem;
+            
+        }
+
+        .imagen {
+            position: absolute;
+            top: -7px;
+            right: 25rem;
+        }
+        .femme {
+            height: 60px;
+        }
+    
+
+        .sobre-imh2 h2 {
+            font-family: 'Urbanist', sans-serif;
+            font-weight: 800;
+            font-size: 40px;
+            text-align: center;
+            text-transform: uppercase;
+            color: #fff;
+            margin: 0;
+        }
+
+        .nos {
+
+            display: flex;
+            flex-direction: column;
+            gap: 50px;
+            
+
+            .raymari {
+                margin-left: 14rem;
+            }
+        }
+
+        
     }
 
 
