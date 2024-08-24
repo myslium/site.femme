@@ -1,11 +1,11 @@
 import './index.scss';
-import { Link } from 'react-router-dom';
+
 
 
 export default function Cabecalho(props) {
-    
-    return(
-        
+
+    return (
+
         <header className="cabeçalho">
             <div className="imh1">
                 <img className="femme" src="/assets/images/logo.femme.png" alt="Femme" />
@@ -14,8 +14,8 @@ export default function Cabecalho(props) {
 
             <nav>
                 <ul>
-                    <li><Link to='/'>Inicio</Link></li>
-                    <li><Link to= {props.scrollToSobre}>Sobre Femme</Link></li>
+                    <li><a href="#unik">Inicio</a></li>
+                    <li><a href="#sobre">Sobre Femme</a></li>
                 </ul>
             </nav>
 

@@ -11,8 +11,9 @@ export default function Femme() {
 
     return (
         <div className='pagina-femme pagina'>
-            <Cabecalho  scrollToSobre= {'#sobre'}/>
-            <section className='unik'>
+            <Cabecalho Inicio = {'#unik'} scrollToSobre= {'#sobre'} 
+            />
+            <section id='unik'>
                 <div className="hero">
                     <div className="hero-text">
                         <h1>Junte-se a Femme e descubra o melhor da tecnologia</h1>

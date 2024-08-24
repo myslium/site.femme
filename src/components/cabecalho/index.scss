@@ -1,65 +1,60 @@
 .cabeçalho {
-    margin: 0px;
+    margin: 0;
     display: flex;
-    background-color: #000; 
-    max-width: 100%;
+    background-color: #000000b2; 
+    width: 100%; 
     align-items: center;
     color: #f5f4f4;
     justify-content: space-between;
     padding: 15px 40px;
-    
+    position: fixed;
+    top: 0; 
+    left: 0;
+    z-index: 1000; 
+    box-sizing: border-box; 
 
+.imh1 {
+    display: flex;
+    align-items: center;
+    gap: 10px; 
+}
 
-    .imh1 {
-        display: flex;
-        align-items: center;
-        gap: 10px; 
-    }
-    
-    nav ul li {
-        margin: 0 30px; 
-    }
-    
+nav ul li {
+    margin: 0 30px; 
+}
 
-    h1 {
-        font-size: 50px;
-        font-family: 'Yrsa', serif;
-        font-weight: 200; 
-        margin: 0px;
-     
-    }
+h1 {
+    font-size: 50px;
+    font-family: 'Yrsa', serif;
+    font-weight: 200; 
+    margin: 0;
+}
 
-    .femme {
-        height: 60px;
-    }
+.femme {
+    height: 60px;
+}
 
-    nav {
-        display: flex;
-    }
+nav {
+    display: flex;
+}
 
-    nav ul {
-        list-style: none;
-        padding: 0;
-        margin: 0;
-        display: flex;
-    }
+nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+}
 
+nav ul li a {
+    color: #f5f4f4;
+    text-decoration: none;
+    font-family: 'Urbanist', sans-serif;
+    font-weight: 800;
+    text-transform: uppercase;
+    font-size: 17px;
+}
 
-    nav ul li a{
-        color: #f5f4f4;
-        text-decoration: none;
-        font-family: 'Urbanist', sans-serif;
-        font-weight: 800;
-        text-transform: uppercase;
-        font-size: 17px;
-     }
-
-  
-
-    nav ul li a:hover{
-
-        color:#8660c4, 
-    }
-
-    
+nav ul li a:hover {
+    color: #8660c4; 
+}
 }
