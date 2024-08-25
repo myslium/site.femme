@@ -189,13 +189,16 @@
     .quarta{
         display: flex;
         flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        
 
 
         .text{
-            display: flex;
-            flex-direction: column;
             color: #fff;
             width: 200px;
+            font-family: 'Urbanist', sans-serif;
+
         }
         .foto{
             width: 300px;
