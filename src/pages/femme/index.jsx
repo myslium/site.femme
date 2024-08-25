@@ -100,7 +100,9 @@ export default function Femme() {
                         <p>Junte-se a Femme e obtenha um dos melhores serviços de tecnologia do mercado</p>
                     </div>
                     <div className="botao"><a href="">Contato</a></div>
+                    <div className="line">
                     <img src="/assets/images/line.png" alt="" />
+                    </div>
                 </div>
             </section>
 

@@ -255,11 +255,14 @@
                 .text{
                     color: #EDDBDB;
                     text-align: justify;
-                    margin-left: 470px;
+                    margin-left: 550px;
                     margin-top: 60px;
+                    h1{
+                        font-size: 30px;
+                    }
                     p{
-                        width: 255px;
-
+                        width: 200px;
+                        
                     }
                 }
                 .botao{
@@ -270,13 +273,14 @@
                         background-color: #2E338D;
                         border-radius: 30px;
                         text-decoration: none;
-                        margin-left: 470px;
+                        margin-left: 550px;
 
 
                     }
 
 
                 }
+                
             }
         }
 
