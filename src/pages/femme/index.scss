@@ -186,6 +186,24 @@
         }
     }
 
+    .quarta{
+        display: flex;
+        flex-direction: row;
+
+
+        .text{
+            display: flex;
+            flex-direction: column;
+            color: #fff;
+            width: 200px;
+        }
+        .foto{
+            width: 300px;
+            height: auto;
+
+        }
+    }
+
 
     
 
