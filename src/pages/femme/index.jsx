@@ -65,6 +65,18 @@ export default function Femme() {
                 <div className='branco'> <img src='/assets/images/line.png' /> </div>
             </section>
 
+            <section className="quarta">
+                <div className="mae">
+                    <div className="text">
+                        <h1>Para jovens da informática</h1>
+                        <p>Nossa empresa visa sempre encorajar jovens progamadores e principalmente progamadoras, NEGRAS E PERIFÉRICAS a engatarem neste mundo tecnológico, sempre desenvolvendo novas habilidades e deixando a área feminina da informática cada vez mais popular e conhecida. Você é capaz!</p>
+                    </div>
+                    <div className="foto">
+                        <img src="/assets/images/empresafoto.png" alt="" />
+                    </div>
+                </div>
+            </section>
+
         
 
 
