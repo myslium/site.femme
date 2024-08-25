@@ -66,15 +66,26 @@ export default function Femme() {
             </section>
 
             <section className="quarta">
+
+
                 <div className="mae">
+
                   <div className="titulo">  <h1> <img src="/assets/images/logo.femme.png" alt="" />MULHERES NA INFORMÁTICA</h1></div>
+
+                  <div className="mae2">
+
                     <div className="text">
                         <h1>Para jovens da informática</h1>
                         <p>Nossa empresa visa sempre encorajar jovens progamadores e principalmente progamadoras, NEGRAS E PERIFÉRICAS a engatarem neste mundo tecnológico, sempre desenvolvendo novas habilidades e deixando a área feminina da informática cada vez mais popular e conhecida. Você é capaz!</p>
                     </div>
+                    
                     <div className="foto">
                         <img src="/assets/images/empresafoto.png" alt="" />
                     </div>
+
+                    </div>
+
+
                 </div>
             </section>
 
