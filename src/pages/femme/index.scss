@@ -189,8 +189,13 @@
     .quarta{
         display: flex;
         flex-direction: row;
-        justify-content: center;
-        align-items: center;
+        .titulo{
+
+            justify-content: center;
+            align-items: center;
+
+
+        }
         
 
 
@@ -198,6 +203,10 @@
             color: #fff;
             width: 200px;
             font-family: 'Urbanist', sans-serif;
+
+            .h1{
+                font-size: 40px;
+            }
 
         }
         .foto{
