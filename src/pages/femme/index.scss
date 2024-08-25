@@ -191,36 +191,94 @@
         display: flex;
         flex-direction: column;
         font-family: 'Urbanist', sans-serif;
-
-
-
-        .mae{
-
+        .mae{         
+       .titulo{
+            color: #EDDBDB;
+            justify-content: center;
+            text-align: center;
+            font-size: 30px;
             
-        .titulo{
-            color: #f5f4f4;
 
-
+            img{
+               width: 50px;
+            }
         }
 
         .mae2{
             background-color: #9573f1;
+             height: 515px;
+            
+            .filho{
             display: flex;
             flex-direction: row;
-
+            justify-content: center;
+            align-items: center;
+          
             .text{
+                margin-top: 70px;
                 display: block;
-                color: #f5f4f4;
+                color: #EDDBDB;
+                width: 330px;
+
+                h1{
+                    font-size: 40px;
+                }
+                p{
+                    font-size: 20px;
+                }
+               
             }
             .foto{
-                width: 300px;
+
+                img{
+                width: 402px;
+                height: 267px;
+                margin-top:150px;
+            }
             }
 
         }
-
         }
-        
-    }
+        }
+        }
+
+
+        .quinta{
+            font-family: 'Urbanist', sans-serif;
+
+
+
+            .mae{
+                display: block;
+                height: 300px;
+
+                .text{
+                    color: #EDDBDB;
+                    text-align: justify;
+                    margin-left: 470px;
+                    margin-top: 60px;
+                    p{
+                        width: 255px;
+
+                    }
+                }
+                .botao{
+                    padding: 60px 0px;
+                    a{
+                        padding: 10px 30px;
+                        color: #f5f4f4 ;
+                        background-color: #2E338D;
+                        border-radius: 30px;
+                        text-decoration: none;
+                        margin-left: 470px;
+
+
+                    }
+
+
+                }
+            }
+        }
 
 
     
