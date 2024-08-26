@@ -1,0 +1,29 @@
+
+.comp-femme {
+
+    display: flex;
+    flex-direction: row;
+    gap: 80px;    
+
+        img {
+            width: 350px;
+            height: 350px;
+
+            border-radius: 50%;
+        }
+    
+        .texto {
+            display: flex;
+            flex-direction: column;
+            gap: 30px;
+
+            h1 {
+                font-family: 'Urbanist', sans-serif;
+            }
+
+            p {
+                width: 300px;
+                font-family: 'Montserrat', sans-serif;
+            }
+        }
+}

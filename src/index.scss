@@ -1,1 +1,11 @@
 @import url('https://fonts.googleapis.com/css2?family=Urbanist:ital,wght@0,100..900;1,100..900&family=Yrsa:ital,wght@0,300..700;1,300..700&display=swap');
+
+* {
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+@font-face {
+    font-family: 'Montserrat';
+    src: url('//assets/fonts/Montserrat-BoldItalic.ttf');
+}
