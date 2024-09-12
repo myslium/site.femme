@@ -16,7 +16,7 @@ export default function Femme() {
             <section id='unik'>
                 <div className="hero">
                     <div className="hero-text">
-                        <h1>Junte-se a Femme e descubra o melhor da tecnologia</h1>
+                        <h1>Junte-se a Femme, o melhor da tecnologia</h1>
                     </div>
                     <div className="hero-image">
                         <img src="/assets/images/mulher1.png" alt="mulher1" />
