@@ -187,6 +187,24 @@ export default function Femme() {
 
             <footer>
 
+                
+                <div className='rodape'>
+
+                    <img src="/assets/images/logobranca.png" alt="" />
+
+                    <nav>
+                        <ul>
+                            <li><a href="#">Política e privacidade</a></li>
+                            <li><a href="#">Blog</a></li>
+                            <li><a href="#">Contato</a></li>
+                        </ul>
+                    </nav>
+
+                </div>
+
+                <img src="/assets/images/line.png" alt="" />
+
+                <h1>Copyright © 2024 Femme.</h1>
             </footer>
         </div>
     )
