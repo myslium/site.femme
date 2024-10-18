@@ -1,15 +1,10 @@
 import './index.scss'
 
-
-
-export default function Dev(props) {
+export default function Dev2(props) {
 
     return (
 
         <div className='comp-femme'>
-
-
-            <img src={props.img} />
 
 
             <div className='texto'>
@@ -18,7 +13,12 @@ export default function Dev(props) {
 
                 <p>{props.p}</p>
             </div>
+
+
+            <img src={props.img} />
+
+
         </div>
+
     )
 }
-
