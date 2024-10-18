@@ -1,1 +1,35 @@
 @import url('https://fonts.googleapis.com/css2?family=Urbanist:ital,wght@0,100..900;1,100..900&family=Yrsa:ital,wght@0,300..700;1,300..700&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Amiko:wght@400;600;700&display=swap');
+
+@font-face {
+    font-family: 'Urbanist';
+    src: url("//assets/fonts/Urbanist-ExtraBold.ttf") ;
+    font-weight: 800;  
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Urbanist';
+    src: url("//assets/fonts/Urbanist-Bold.ttf") ;
+    font-weight: 600;  
+    font-style: normal;
+}
+@font-face {
+    font-family: 'Montserrat';
+    src: url("//assets/fonts/Montserrat-ExtraBold.ttf") ;
+    font-weight: 800;  
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Montserrat';
+    src: url("//public/assets/fonts/Montserrat-Regular.ttf");
+    font-weight: 600;
+}
+
+body {
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}

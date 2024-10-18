@@ -1,11 +1,11 @@
 
 
 import Cabecalho from '../../components/cabecalho'
-import Dev from '../../components/dev'
 import Dev2 from '../../components/dev2'
+import Dev from '../../components/dev'
 import './index.scss'
 
-import Dev from '../../components/dev'
+
 
 export default function Femme() {
 
@@ -149,10 +149,10 @@ export default function Femme() {
                     h1 = {'Rayane Macedo'}
                     
                     />
-
-
-
                     </div>
+
+
+                    
                    
 
                     <Dev
@@ -177,8 +177,9 @@ export default function Femme() {
                     h1 = {'Mariana Rodrigues'}
                     
                     />
-
                     </div>
+                    
+                    
 
                    
                 </div>
