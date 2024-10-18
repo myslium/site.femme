@@ -274,11 +274,15 @@
                         border-radius: 30px;
                         text-decoration: none;
                         margin-left: 550px;
-
+                        transition: background-color 0.1s ease-in-out;
 
                     }
+        
 
 
+                }
+                a:hover {
+                    background-color: #1c205f ;
                 }
                 
             }
@@ -308,7 +312,8 @@
             position: relative;
             
             gap: 15px;
-            margin-bottom: 20px;
+
+           margin-top: 5rem;
             margin-bottom: 5rem;
             margin-left: 5rem;
             
@@ -347,6 +352,59 @@
         }
 
         
+    }
+
+    footer {
+        display: flex;
+        flex-direction: column;
+        color: #fff;
+        padding: 30px 40px;
+        margin-top: 6rem;
+        gap: 30px;
+
+        .rodape {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 0px 30px;
+
+
+            img {
+                width: 250px;
+                height: 100px;
+            }
+
+            nav {
+                display: flex;
+                
+            }
+            
+            nav ul {
+                list-style: none;
+                padding: 0;
+                margin: 0;
+                display: flex;
+                gap: 6rem;
+            }
+            
+            nav ul li a {
+                color: #f5f4f4;
+                text-decoration: none;
+                font-family: 'Urbanist', sans-serif;
+                font-weight: 500;
+                text-transform: uppercase;
+                font-size: 18px;
+                
+
+            }
+        }
+
+        h1 {
+            text-align: center;
+            font-family: 'Urbanist', sans-serif;
+            font-size: 18px;
+            font-weight: 400;
+        }
     }
 
 

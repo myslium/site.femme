@@ -18,7 +18,7 @@ export default function Femme() {
             <section id='unik'>
                 <div className="hero">
                     <div className="hero-text">
-                        <h1>Junte-se a Femme e descubra o melhor da tecnologia</h1>
+                        <h1>Junte-se a Femme, o melhor da tecnologia</h1>
                     </div>
                     <div className="hero-image">
                         <img src="/assets/images/mulher1.png" alt="mulher1" />
@@ -190,6 +190,24 @@ export default function Femme() {
 
             <footer>
 
+                
+                <div className='rodape'>
+
+                    <img src="/assets/images/logobranca.png" alt="" />
+
+                    <nav>
+                        <ul>
+                            <li><a href="#">Política e privacidade</a></li>
+                            <li><a href="#">Blog</a></li>
+                            <li><a href="#">Contato</a></li>
+                        </ul>
+                    </nav>
+
+                </div>
+
+                <img src="/assets/images/line.png" alt="" />
+
+                <h1>Copyright © 2024 Femme.</h1>
             </footer>
         </div>
     )
