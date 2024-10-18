@@ -1,37 +1,34 @@
 .cabeçalho {
-    margin: 0;
     display: flex;
     background-color: #000000b2; 
-    width: 100%; 
+    width: 100%;
     align-items: center;
     color: #f5f4f4;
     justify-content: space-between;
-    padding: 15px 40px;
+    padding: 1vw 3vw;
     position: fixed;
-    top: 0; 
-    left: 0;
     z-index: 1000; 
     box-sizing: border-box; 
 
 .imh1 {
     display: flex;
     align-items: center;
-    gap: 10px; 
+    gap: 1vw; 
 }
 
 nav ul li {
-    margin: 0 30px; 
+   margin-left: 2vw;
 }
 
 h1 {
-    font-size: 50px;
+    font-size: 3.4vw;
     font-family: 'Yrsa', serif;
     font-weight: 200; 
     margin: 0;
 }
 
 .femme {
-    height: 60px;
+    height: 4vw;
 }
 
 nav {
@@ -40,8 +37,6 @@ nav {
 
 nav ul {
     list-style: none;
-    padding: 0;
-    margin: 0;
     display: flex;
 }
 
@@ -51,7 +46,7 @@ nav ul li a {
     font-family: 'Urbanist', sans-serif;
     font-weight: 800;
     text-transform: uppercase;
-    font-size: 17px;
+    font-size: 1.3vw;
 }
 
 nav ul li a:hover {

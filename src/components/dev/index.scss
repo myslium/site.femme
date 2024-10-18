@@ -5,12 +5,12 @@
     flex-direction: row;
     align-items: center;
 
-    gap: 50px;
+    gap: 3vw;
     
 
     img {
-        width: 250px; 
-        height: 250px; 
+        width: 17vw; 
+        height: 17vw; 
         border-radius: 50%;
         object-fit: cover; 
 
@@ -24,18 +24,20 @@
         
         
         h1 {
-            font: 800 40px 'Urbanist';
+            font-family: 'Urbanist', sans-serif;
+            font-size: 2.5vw;
+            font-weight: 500;
             color: #fff;
 
         }
 
         p {
-            max-width: 400px;
-            width: 100%;
+            max-width: 100%;
+            width: 30vw;
 
             font-family: 'Montserrat', sans-serif;
             font-weight: 500;
-            font-size: 20px;
+            font-size: 1.5vw;
 
             color: #fff;
          

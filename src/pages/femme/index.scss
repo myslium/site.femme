@@ -10,7 +10,7 @@
             align-items: center;
             justify-content: space-evenly;
             background-color: #4B3A76;
-            padding: 40px;
+            padding: 3vw;
         }
 
         .hero-text {
@@ -22,10 +22,10 @@
             font-family: 'Amiko', sans-serif;
             text-transform: uppercase;
             font-weight: 700;
-            font-size: 3.5em;
+            font-size: 4.1vw;
             margin: 0;
             line-height: 1.2em;
-            width: 600px;
+
         }
 
         .hero-image {
@@ -41,7 +41,7 @@
         #sobre {
             background-color: #000;
             color: #f5f4f4;
-            padding: 40px;
+            padding: 1.5vw;
             margin: 0 auto;
     
             .sobre-con {
@@ -53,18 +53,18 @@
             .sobre-imh2 {
                 display: flex;
                 align-items: center;
-                gap: 15px;
-                margin-bottom: 20px;
+                gap: 1vw;
+                margin-bottom: 2vw;
             }
             .femme {
-                height: 60px;
+                height: 5vw;
             }
         
     
             .sobre-imh2 h2 {
                 font-family: 'Urbanist', sans-serif;
                 font-weight: 800;
-                font-size: 40px;
+                font-size: 2.5vw;
                 text-transform: uppercase;
                 color: #fff;
                 margin: 0;
@@ -74,11 +74,11 @@
                 font-family: 'Montserrat', sans-serif;
                 font-weight: 400;
                 color: #CBBDF3;
-                font-size: 26px;
+                font-size: 2vw;
                 line-height: 1.6;
-                width: 1200px;
+                width: 80vw;
                 text-align: left;
-                margin: 0px 0px 90px 0px;
+                margin: 0vw 0vw 5vw 0vw;
             }
         }  
     }
@@ -90,7 +90,7 @@
         display: flex;
         align-items: center; 
         background-color: #2E338D;
-        padding: 50px;
+        padding: 3vw;
 
             .pri {
                 display: flex;
@@ -104,17 +104,17 @@
                     h1 {
                         font-family: 'Amiko', sans-serif;
                         font-weight: 800;
-                        font-size: 43px;
+                        font-size: 3vw;
                         text-transform: uppercase;
                         margin: 0;  
-                        padding: 0px 20px 0px 30px;
+                        padding: 0vw 2vw 0vw 2vw;
                     }
             
                     p {
                         font-family: 'Urbanist', sans-serif;
-                        font-size: 20px;
+                        font-size: 1.3vw;
                         margin: 0; 
-                        padding: 10px 0px 0px 30px;
+                        padding: 1vw 0vw 0vw 2vw;
                     }
                 }
             
@@ -123,6 +123,10 @@
                     justify-content: center;  
                     align-items: center;  
             
+                    img {
+                        max-width: 100%;
+                        width: 40vw;
+                    }
                 }
             }
         }
@@ -135,22 +139,22 @@
             display: flex;
             align-items: center;
             justify-content: center;
-            padding: 20px 20px;
+            padding: 2vw 2vw;
         }
 
         .femme {
-            height: 60px;
-            padding: 0px 0px 0px 0px;
+            height: 5vw;
+
             
         }
 
         .container-pri h1 {
             font-family: 'Amiko', sans-serif;
             font-weight: 800;
-            font-size: 43px;
+            font-size: 3vw;
             text-transform: uppercase;
             margin: 0;  
-            padding: 0px 0px 0px 10px;
+            padding: 0vw 0vw 0vw 1vw;
         
 
         }
@@ -161,29 +165,37 @@
             justify-content: center;
             flex-direction: column;
             font-family: 'Urbanist', sans-serif;
-            font-size: 22px;
+            font-size: 1.5vw;
             margin: 0; 
             color: #CBBDF3;
             
         }
 
         .p2 {
-            padding: 0px 0px 0px 120px;
+            padding: 0vw 0vw 0vw 10vw;
             color: #CBBDF3;
 
         }
 
         .dir {
-            margin: 0px 0px 0px 950px;
+            margin: 0vw 0vw 0vw 70vw;
+            img {
+                width: 15vw;
+
+            }
         }
 
         .esq {
-            margin: 0px 0px 0px 80px;
+            margin: 0vw 0vw 0vw 10vw;
+            img {
+                width: 15vw;
+
+            }
         }
 
-        .branco {
-            padding: 0px 0px 40px 0px;
-        }
+       .line {
+         width: 100%;
+       }
     }
 
     .quarta{
@@ -193,47 +205,51 @@
         font-family: 'Urbanist', sans-serif;
         .mae{         
        .titulo{
+            display: flex;
+            gap: 1vw;
             color: #EDDBDB;
             justify-content: center;
             text-align: center;
-            font-size: 30px;
+            align-items: center;
+            font-size: 2vw;
             
 
             img{
-               width: 50px;
+               width: 5vw;
             }
         }
 
         .mae2{
             background-color: #9573f1;
-             height: 515px;
+             
+             padding: 5vw;
             
             .filho{
             display: flex;
             flex-direction: row;
             justify-content: center;
             align-items: center;
+            gap: 2vw;
           
             .text{
-                margin-top: 70px;
                 display: block;
                 color: #EDDBDB;
-                width: 330px;
+                width: 25vw;
 
                 h1{
-                    font-size: 40px;
+                    font-size: 3vw;
                 }
                 p{
-                    font-size: 20px;
+                    font-size: 1.4vw;
                 }
                
             }
             .foto{
 
                 img{
-                width: 402px;
-                height: 267px;
-                margin-top:150px;
+                max-width: 100%;
+                
+                
             }
             }
 
@@ -245,35 +261,45 @@
 
         .quinta{
             font-family: 'Urbanist', sans-serif;
+            margin-bottom: 3vw;
 
 
 
             .mae{
                 display: block;
-                height: 300px;
+                
 
                 .text{
                     color: #EDDBDB;
                     text-align: justify;
-                    margin-left: 550px;
-                    margin-top: 60px;
+                    display: flex;
+                    flex-direction: column;
+                    justify-content: left;
+                    align-items: start;
+                    margin-left: 6vw;
+                    margin-top: 2vw;
                     h1{
-                        font-size: 30px;
+                        font-size: 2vw;
                     }
-                    p{
-                        width: 200px;
+                    .textoo {
+                        width: 15vw;
+                        p{
+                        line-height: 130%;
+                        text-align: justify;
+                        font-size: 1.1vw;
+                    }
+                    }
+                   
                         
-                    }
-                }
                 .botao{
-                    padding: 60px 0px;
+                    margin-top: 2vw;
+
                     a{
-                        padding: 10px 30px;
+                        padding: 1vw 3vw;
                         color: #f5f4f4 ;
                         background-color: #2E338D;
                         border-radius: 30px;
                         text-decoration: none;
-                        margin-left: 550px;
                         transition: background-color 0.1s ease-in-out;
 
                     }
@@ -283,9 +309,17 @@
                 }
                 a:hover {
                     background-color: #1c205f ;
+                }    
+            
                 }
                 
+                .line {
+                  margin-top: 5vw;
+                   max-width: 100%;
+                 
+                }
             }
+          
         }
 
 
@@ -311,28 +345,23 @@
             align-items: center;
             position: relative;
             
-            gap: 15px;
-
-           margin-top: 5rem;
-            margin-bottom: 5rem;
-            margin-left: 5rem;
+            gap: 1vw;
+          
+            margin: 1vw 0vw 5vw 0vw;
+           
+            .femme {
+                height: 5vw;
+            }
             
         }
 
-        .imagen {
-            position: absolute;
-            top: -7px;
-            right: 25rem;
-        }
-        .femme {
-            height: 60px;
-        }
+        
     
 
         .sobre-imh2 h2 {
             font-family: 'Urbanist', sans-serif;
             font-weight: 800;
-            font-size: 40px;
+            font-size: 3vw;
             text-align: center;
             text-transform: uppercase;
             color: #9573f1;
@@ -343,10 +372,10 @@
 
             display: flex;
             flex-direction: column;
-            gap: 50px;
+            gap: 6vw;
             
             .raymari {
-                margin-left: 14rem;
+                margin-left: 10vw;
             }
            
         }
@@ -358,20 +387,18 @@
         display: flex;
         flex-direction: column;
         color: #fff;
-        padding: 30px 40px;
-        margin-top: 6rem;
-        gap: 30px;
+        padding: 2vw 4vw;
+        margin-top: 7vw;
+        gap: 3vw;
 
         .rodape {
             display: flex;
             justify-content: space-between;
             align-items: center;
-            padding: 0px 30px;
 
 
             img {
-                width: 250px;
-                height: 100px;
+                width: 15vw;
             }
 
             nav {
@@ -384,7 +411,7 @@
                 padding: 0;
                 margin: 0;
                 display: flex;
-                gap: 6rem;
+                gap: 4vw;
             }
             
             nav ul li a {
@@ -393,7 +420,7 @@
                 font-family: 'Urbanist', sans-serif;
                 font-weight: 500;
                 text-transform: uppercase;
-                font-size: 18px;
+                font-size: 1.3vw;
                 
 
             }
@@ -402,7 +429,7 @@
         h1 {
             text-align: center;
             font-family: 'Urbanist', sans-serif;
-            font-size: 18px;
+            font-size: 1.3vw;
             font-weight: 400;
         }
     }

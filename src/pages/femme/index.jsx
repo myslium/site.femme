@@ -64,7 +64,7 @@ export default function Femme() {
                     <p className='p2'>-Gislaine, Dona da G&G</p>
                 </div>
                 <div className='dir'> <img src='/assets/images/aspasdir.png' /> </div>
-                <div className='branco'> <img src='/assets/images/line.png' /> </div>
+                <img className='line' src='/assets/images/line.png' /> 
             </section>
 
             <section className="quarta">
@@ -72,23 +72,23 @@ export default function Femme() {
 
                 <div className="mae">
 
-                  <div className="titulo">  <h1> <img src="/assets/images/logo.femme.png" alt="" />MULHERES NA INFORMÁTICA</h1></div>
+                  <div className="titulo">   <img src="/assets/images/logo.femme.png" alt="" /><h1>MULHERES NA INFORMÁTICA</h1></div>
 
                   <div className="mae2">
 
-                    <div className="filho">
-                    <div className="text">
-                        <h1>PARA JOVENS DA INFORMÁTICA</h1>
-                        <p>Nossa empresa visa sempre encorajar jovens progamadores e principalmente progamadoras, NEGRAS E PERIFÉRICAS a engatarem neste mundo tecnológico, sempre desenvolvendo novas habilidades e deixando a área feminina da informática cada vez mais popular e conhecida. Você é capaz!</p>
-                    </div>
+                        <div className="filho">
+                            <div className="text">
+                                <h1>PARA JOVENS DA INFORMÁTICA</h1>
+                                <p>Nossa empresa visa sempre encorajar jovens progamadores e principalmente progamadoras, NEGRAS E PERIFÉRICAS a engatarem neste mundo tecnológico, sempre desenvolvendo novas habilidades e deixando a área feminina da informática cada vez mais popular e conhecida. Você é capaz!</p>
+                            </div>
 
-                    <div className="foto">
-                        <img src="/assets/images/empresafoto.png" alt="" />
-                    </div>
+                            <div className="foto">
+                                <img src="/assets/images/empresafoto.png" alt="" />
+                            </div>
 
-                    </div>
+                        </div>
 
-                    </div>
+                     </div>
 
 
 
@@ -99,12 +99,16 @@ export default function Femme() {
                 <div className="mae">
                     <div className="text">
                         <h1>EXPERIMENTE NOSSOS SERVIÇOS</h1>
-                        <p>Junte-se a Femme e obtenha um dos melhores serviços de tecnologia do mercado</p>
+                        <div className='textoo'>
+                            <p>Junte-se a Femme e obtenha um dos melhores serviços de tecnologia do mercado</p> 
+                        </div>
+                        
+                        <div className="botao"><a href="">Contato</a></div>
                     </div>
-                    <div className="botao"><a href="">Contato</a></div>
-                    <div className="line">
-                    <img src="/assets/images/line.png" alt="" />
-                    </div>
+                   
+                 
+                    <img className='line' src="/assets/images/line.png" alt="" />
+                  
                 </div>
             </section>
 
@@ -118,11 +122,13 @@ export default function Femme() {
 
             <div className="sobre-imh2">
 
-                <div className='imagen'>
+              
                 <img  className = 'femme' src="/assets/images/logo.femme.png" alt="Femme Logo" />
-                </div>
-                 
-                 <h2>Desenvolvedoras <br/>Femme</h2>
+               
+                 <div className='texto'>
+                      <h2>Desenvolvedoras Femme</h2>
+                 </div>
+               
             </div>
 
                 <div className='nos'>
