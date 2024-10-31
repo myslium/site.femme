@@ -41,5 +41,58 @@
          
         }
     }
+    @media (max-width: 768px) {
 
+        img {
+        width: 25vw; 
+        height: 25vw; 
+        border-radius: 50%;
+        object-fit: cover; 
+
+        
+    }
+
+    .texto {
+
+        h1 {
+
+            font-size: 5vw;
+        
+        }
+
+        p {
+            max-width: 100%;
+            width: 40vw;
+            font-size: 2.3vw;
+        }
+    }
+
+    }
+    @media (max-width: 468px) {
+
+        img {
+        width: 30vw; 
+        height: 30vw; 
+        border-radius: 50%;
+        object-fit: cover; 
+
+        
+    }
+
+    .texto {
+
+        h1 {
+
+            font-size: 5.5vw;
+        
+        }
+
+        p {
+            max-width: 100%;
+            width: 45vw;
+            font-size: 2.7vw;
+        }
+    }
+
+    }
 }

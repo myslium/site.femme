@@ -323,13 +323,6 @@
         }
 
 
-    
-
-
-
-
-
-
     .desenvolvedoras {
 
         display: flex;
@@ -434,5 +427,458 @@
         }
     }
 
+   @media (max-width: 768px) {
 
+    
+    #unik {
+        .hero {
+            padding: 6vw;
+        }
+
+        #sobre {
+            padding: 2.5vw;
+    
+            .sobre-imh2 {
+                gap: 1vw;
+                margin-bottom: 4vw;
+            }
+            .femme {
+                height: 5.5vw;
+            }
+        
+    
+            .sobre-imh2 h2 {
+                font-size: 3vw;
+               
+            }
+    
+            .sobre-con p {
+                font-size: 2.4vw;    
+            }
+        }  
+    }
+    .segunda {
+        display: flex;
+        align-items: center; 
+        justify-content: center;
+        padding: 6vw;
+       
+            .pri {
+                display: flex;
+                flex-direction: column;
+                align-items: center; 
+                gap: 4vw;
+             
+                .pri-text {
+                    h1 {
+                        font-size: 5vw;
+                    }
+                    p {
+                        font-size: 2.3vw;
+                       
+                    }
+                }
+            
+                .pri-four {
+                 
+                    img {
+                        max-width: 100%;
+                        width: 50vw;
+                    }
+                }
+            }
+        }
+
+        .terceira {
+            .container-pri {
+                padding: 5vw;
+            }
+    
+            .femme {
+                height: 7vw;
+            }
+    
+            .container-pri h1 {
+                font-size: 4.5vw;
+            
+            }
+    
+            .parag {
+                font-size: 2.3vw;
+              
+            }
+    
+    
+        }
+
+        .quarta{
+            .mae{     
+            
+           .titulo{
+                padding: 2vw;
+                display: flex;
+                gap: 1vw;
+                color: #EDDBDB;
+                justify-content: center;
+                text-align: center;
+                align-items: center;
+                font-size: 3vw;
+                
+    
+                img{
+                   width: 6vw;
+                }
+            }
+    
+            .mae2{
+                background-color: #9573f1;
+        
+                 padding: 5vw;
+                
+                .filho{
+                display: flex;
+                flex-direction: column;
+                .text{
+                  
+                    width: 50vw;
+    
+                    h1{
+                        font-size: 5vw;
+                    }
+                    p{
+                        font-size: 2.3vw;
+                    }
+                   
+                }
+                .foto{
+    
+                    img{
+                    max-width: 100%;
+                    width: 50vw;
+                    
+                    
+                }
+                }
+    
+            }
+            }
+            }
+            }
+
+            .quinta{
+                margin-bottom: 5vw;
+                .mae{
+                  
+                    .text{
+                        margin-left: 6vw;
+                        h1{
+                            font-size: 4vw;
+                        }
+                        .textoo {
+                            width: 40vw;
+                            p{
+                            line-height: 130%;
+                            text-align: justify;
+                            font-size: 2.3vw;
+                        }
+                        }
+                       
+                            
+                    .botao{
+                        margin-top: 2vw;
+    
+                        a{
+                            padding: 2vw 5vw;
+                        
+                        }
+                    }
+                
+                    }
+                    
+                    .line {
+                      margin-top: 10vw;
+                       max-width: 100%;
+                     
+                    }
+                }
+              
+            }
+
+            .desenvolvedoras {
+
+                .sobre-imh2 {
+        
+                    .femme {
+                        height: 6vw;
+                    }
+                    
+                }
+        
+            
+                .sobre-imh2 h2 {
+                  
+                    font-size: 4vw;
+                
+                }
+        
+                .nos {
+                    display: flex;
+                    flex-direction: column;
+                    gap: 6vw;
+                    
+                    .raymari {
+                        margin-left: 18vw;
+                    }
+                   
+                }
+        
+                
+            }
+            footer {
+                padding: 2vw 8vw;
+    
+                .rodape {
+                 
+                    img {
+                        width: 20vw;
+                    }
+        
+                    nav ul {
+                     
+                        gap: 6vw;
+                    }
+                    
+                    nav ul li a {
+                     
+                        font-size: 1.7vw;
+                        
+        
+                    }
+                }
+        
+                h1 {
+                  
+                    font-size: 2vw;
+                  
+                }
+            }
+   }
+   @media (max-width: 468px) {
+
+    
+    #unik {
+        .hero {
+            padding: 7vw;
+        }
+
+        #sobre {
+            padding: 2.5vw;
+    
+            .sobre-imh2 {
+                margin-bottom: 5vw;
+            }
+            .femme {
+                height: 6vw;
+            }
+        
+            .sobre-imh2 h2 {
+                font-size: 5vw;
+               
+            }
+    
+            .sobre-con p {
+                font-size: 3vw;    
+            }
+        }  
+    }
+    .segunda {
+        padding: 8vw;
+       
+            .pri {
+    
+                gap: 6vw;
+             
+                .pri-text {
+                    h1 {
+                        font-size: 6vw;
+                    }
+                    p {
+                        font-size: 3vw;
+                       
+                    }
+                }
+            
+                .pri-four {
+                 
+                    img {
+                        max-width: 100%;
+                        width: 55vw;
+                    }
+                }
+            }
+        }
+
+        .terceira {
+            .container-pri {
+                padding: 5vw;
+            }
+    
+            .femme {
+                height: 7.5vw;
+            }
+    
+            .container-pri h1 {
+                font-size: 6vw;
+            
+            }
+    
+            .parag {
+                font-size: 3vw;
+              
+            }
+    
+    
+        }
+
+        .quarta{
+            .mae{     
+            
+           .titulo{
+                
+                font-size: 4vw;
+                
+    
+                img{
+                   width: 6vw;
+                }
+            }
+    
+            .mae2{
+            
+                .filho{
+               
+                .text{
+                  
+                    width: 55vw;
+    
+                    h1{
+                        font-size: 6vw;
+                    }
+                    p{
+                        font-size: 3vw;
+                    }
+                   
+                }
+                .foto{
+    
+                    img{
+                    max-width: 100%;
+                    width: 55vw;
+                    
+                    
+                }
+                }
+    
+            }
+            }
+            }
+            }
+
+            .quinta{
+                margin-bottom: 10vw;
+                .mae{
+                  
+                    .text{
+                        margin-left: 6vw;
+                        h1{
+                            font-size: 5vw;
+                        }
+                        .textoo {
+                            width: 40vw;
+                            p{
+                            line-height: 130%;
+                            text-align: justify;
+                            font-size: 3vw;
+                        }
+                        }
+                       
+                            
+                    .botao{
+                        margin-top: 2vw;
+    
+                        a{
+                            padding: 2.5vw 6vw;
+                        
+                        }
+                    }
+                
+                    }
+                    
+                    .line {
+                      margin-top: 10vw;
+                       max-width: 100%;
+                     
+                    }
+                }
+              
+            }
+
+            .desenvolvedoras {
+
+                .sobre-imh2 {
+        
+                    .femme {
+                        height: 7vw;
+                    }
+                    
+                }
+        
+            
+                .sobre-imh2 h2 {
+                  
+                    font-size: 5vw;
+                
+                }
+        
+                .nos {
+                    display: flex;
+                    flex-direction: column;
+                    gap: 6vw;
+                    justify-content: center;
+                    align-items: center;
+                    
+                
+                }
+        
+                
+            }
+            footer {
+                padding: 2vw 10vw;
+    
+                .rodape {
+                 
+                    img {
+                        width: 25vw;
+                    }
+        
+                    nav ul {
+                     
+                        gap: 3vw;
+                    }
+                    
+                    nav ul li a {
+                     
+                        font-size: 2.3vw;
+                        
+        
+                    }
+                }
+        
+                h1 {
+                  
+                    font-size: 2.5vw;
+                  
+                }
+            }
+   }
 }

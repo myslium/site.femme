@@ -9,7 +9,9 @@ import './index.scss'
 
 export default function Femme() {
 
-    
+    function whatsapp() {
+        alert('Você será redirecionado ao contato do Whatsapp da nossa equipe!')
+    }
 
     return (
         <div className='pagina-femme pagina'>
@@ -103,7 +105,7 @@ export default function Femme() {
                             <p>Junte-se a Femme e obtenha um dos melhores serviços de tecnologia do mercado</p> 
                         </div>
                         
-                        <div className="botao"><a href="">Contato</a></div>
+                        <div onClick={whatsapp} className="botao"><a href="https://wa.me/5511953031986">Contato</a></div>
                     </div>
                    
                  

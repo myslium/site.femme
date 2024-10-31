@@ -52,4 +52,47 @@ nav ul li a {
 nav ul li a:hover {
     color: #8660c4; 
 }
+
+@media (max-width: 768px) {
+
+    
+    h1 {
+        font-size: 5.5vw;
+        font-family: 'Yrsa', serif;
+        font-weight: 200; 
+        margin: 0;
+    }
+    
+    .femme {
+        height: 6vw;
+    }
+    
+    
+    nav ul li a {
+       
+        font-size: 2vw;
+    }
+    
+
+}
+
+
+@media (max-width: 468px) {
+
+
+    h1 {
+        font-size: 6vw;
+    }
+    
+    .femme {
+        height: 6.5vw;
+    }
+    
+   
+    nav ul li a {
+       
+        font-size: 2.5vw;
+    }
+  
+}
 }
