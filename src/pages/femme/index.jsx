@@ -205,9 +205,8 @@ export default function Femme() {
 
                     <nav>
                         <ul>
-                            <li><a href="#">Política e privacidade</a></li>
-                            <li><a href="#">Blog</a></li>
-                            <li><a href="#">Contato</a></li>
+                            <li onClick={whatsapp}><a href="https://wa.me/5511953031986">Contato</a></li>
+                            <li><a href="http://4.172.207.208:3034">Projetos</a></li>
                         </ul>
                     </nav>
 
