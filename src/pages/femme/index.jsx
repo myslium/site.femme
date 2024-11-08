@@ -152,7 +152,7 @@ export default function Femme() {
 
                     p = {'A Desenvolvedora FullStack Rayane atua e projeta o Front-end dos nossos projetos, criando interfaces usando Html, CSS e ReactJS e também trabalha com banco de dados MySQL.'}
 
-                    img = {'/assets/images/ray.jpg'}
+                    img = {'/assets/images/fotoray.jpg'}
 
                     h1 = {'Rayane Macedo'}
                     
